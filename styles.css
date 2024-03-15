@@ -28,6 +28,9 @@ header li{
     display: inline;
     margin: auto 20px;
 }
+.card a{
+  text-decoration: none;
+}
 header a{
     text-decoration: none;
     color: white;
