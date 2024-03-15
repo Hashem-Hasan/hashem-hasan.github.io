@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Arabian Food Survey</title>
+</head>
+<body>
+<h1 id="title">Arabian food Survey</h1>
+<p id="description">This survey is to test if you like arabian food or not.</p>
+<form id="survey-form">
+<fieldset >
+<label id="name-label">Name <input class="blockat" required id="name" type="text" placeholder="Enter your name"> </label>
+<label id="email-label">Email <input class="blockat" required id="email" type="email" placeholder="Enter your email"> </label>
+<label id="number-label">Age (Optional) <input class="blockat" id="age" type="number" placeholder="Enter your age" min="13" max="120"> </label>
+
+</fieldset>
+
+<fieldset>
+    <label>Which Arabic food do you prefer?
+        <select class="blockat" id="dropdown"> 
+        <option value="">Select the food</option>
+        <option value="1">Shawerma</option>
+        <option value="2">Kabsa</option>
+        <option value="3">Mansaf</option>
+        <option value="4">Mandi</option>
+        <option value="5">Other</option>
+        </select>    
+        </label>
+</fieldset>
+
+<fieldset>
+    <label>Would you recommend the Arabian food to your friend? 
+    <label><input type="radio" checked name="wyr">Definitely</label>
+    <label><input type="radio" name="wyr">Maybe</label>
+    <label><input type="radio" name="wyr">Not sure</label>
+    </label> 
+</fieldset>
+
+
+
+<fieldset>
+    <label for="referrer">What is your favorite arabic country? 
+        <select class="blockat" id="referrer"> 
+        <option value="">Select a country</option>
+        <option value="1">Jordan</option>
+        <option value="2">Syria</option>
+        <option value="3">Lebanon</option>
+        <option value="4">United Arab Emirates</option>
+        <option value="4">Other</option>
+        </select>    
+        </label>
+</fieldset>
+
+<fieldset>
+<label>What would you like to visit in the future? (Check all that apply)
+<label><Input type="checkbox">Asia</Input></label>
+<label><Input type="checkbox">Middle East</Input></label>
+<label><Input type="checkbox">Europe</Input></label>
+<label><Input type="checkbox">Usa/Canada</Input></label>
+</label>
+</fieldset>
+
+<fieldset>
+<label for="">Any more comment you have?<textarea class="blockat" rows="8" placeholder="Enter Your comment here..."></textarea></label>
+</fieldset>
+
+<fieldset>
+<label for="Submit-btn"><input id="Submit-btn" class="blockat" type="submit" value="Submit"></label>
+</fieldset>
+</form>
+</body>
+
+</html>
