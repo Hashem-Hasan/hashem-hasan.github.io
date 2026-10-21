@@ -1058,3 +1058,18 @@ footer > div {
     transition: none !important;
   }
 }
+
+.flagship-visual {
+  background: #101719;
+  padding: 0;
+}
+.flagship-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+}
+.flagship-visual .visual-tag {
+  color: #afc9ac;
+}

@@ -16,8 +16,8 @@ test('every local asset referenced by the portfolio exists', () => {
     );
   }
 });
-test('all eight showcased projects have explicit categories and accessible filters', () => {
-  assert.equal((html.match(/data-category=/g) || []).length, 8);
+test('all twelve showcased projects have explicit categories and accessible filters', () => {
+  assert.equal((html.match(/data-category=/g) || []).length, 12);
   assert.equal((html.match(/data-filter=/g) || []).length, 3);
   assert.ok(html.includes('role="status"'));
   assert.ok(html.includes('href="#main"'));
